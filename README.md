@@ -1,4 +1,4 @@
-# flutter_application_2
+# LogInApp
 
 A new Flutter project.
 

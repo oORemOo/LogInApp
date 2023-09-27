@@ -1,4 +1,4 @@
-import 'screen/HOME.dart'; // นำเข้าไฟล์ HOME.dart
+import 'screen/home.dart'; // นำเข้าไฟล์ HOME.dart
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart'; // เพิ่มนี้
 

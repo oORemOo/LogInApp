@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'log_in.dart'; // import หน้า log_in.dart
+import 'login.dart'; // import หน้า log_in.dart
 import 'register.dart'; // import หน้า Register.dart
 
 void main() {
@@ -46,7 +46,8 @@ class HomeScreen extends StatelessWidget {
                     horizontal: 80, vertical: 30), // ปรับขนาดของปุ่ม
               ),
             ),
-            SizedBox(height: 20), // เพิ่ม SizedBox เพื่อเพิ่มช่องว่างระหว่างปุ่ม
+            SizedBox(
+                height: 20), // เพิ่ม SizedBox เพื่อเพิ่มช่องว่างระหว่างปุ่ม
             ElevatedButton(
               onPressed: () {
                 // เมื่อคลิกที่ปุ่ม "Register" ให้ไปที่หน้า Register.dart
@@ -72,3 +73,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
